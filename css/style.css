@@ -106,7 +106,7 @@ body {
 }
 
 .content-block p {
-	width: 450px;
+/*	width: 450px;*/
 	padding-top: 35px;
 	line-height: 25px; 
 	font: 14px;
@@ -208,6 +208,25 @@ a {
 	margin-left: 10px;
 }
 
+.stacks {
+	text-align: center;
+}
+
+.stack-img {
+	margin-top: 20px;
+}
+
+/*.skills-list{
+	padding: 5px;
+}*/
+
+.skill-heading {
+	margin-top: 35px;
+}
+ #web-logo{
+ 	height: 95px;
+/* 	margin-top: 20px;*/
+ }
 
 
 

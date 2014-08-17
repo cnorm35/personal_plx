@@ -1,0 +1,144 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+body {
+		margin:0;
+ 		padding:0;
+ 		font-family: 'Montserrat';
+	}
+
+	h2 {
+		background-color: rgba(0,0,0,0.5);
+	}
+
+
+
+#home {
+	background: url('../images/bg2.jpg');
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	position: relative;
+	min-height: 1080px;
+}
+
+#about { 
+	
+	background: url("../images/bridge.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position:100% 0; 
+	position:relative;
+	min-height:1080px;
+}
+#blog { 
+	
+	background: url("../images/therock.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position:100% 0; 
+	position:relative;
+	min-height:1080px;
+}
+#contact { 
+	
+	background: url("../images/rooftops.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position:100% 0; 
+	position:relative;
+	min-height:1080px;
+}
+
+.section-one h2 {
+	font: bold 38px 'Montserrat', sans-serif;
+	color: white;
+	position: absolute;
+	top: 300px;
+	left: 100px;
+	padding: 10px;
+	background-color: rbga(0,0,0,0.7);
+}
+
+.section-one {
+	width: 100%;
+	min-height: 500px;
+	position: relative;
+	overflow: hidden;
+}
+
+.section-one p {
+	width: 450px;
+	margin: 10px 'Montserrat', sans-serif;
+	line-height: 18px; 
+	font: 14px 
+}
+
+.section-two h2 {
+	font: bold 50px 'Montserrat', sans-serif;
+	color: white;
+	position: absolute;
+	top: 200px; 
+	right: 400px;
+	padding: 10px;
+/*	background-color: rbga(0,0,0,0.7);*/
+}
+
+.section-two {
+	width: 100%;
+	min-height: 400px;
+	position: relative;
+	overflow: hidden;
+}
+
+.content-block p {
+	width: 450px;
+	padding-top: 35px;
+	line-height: 25px; 
+	font: 14px;
+	text-align: center;
+	margin: 0 auto; 
+
+}
+
+.content-block {
+	width: 100%;
+	min-height: 500px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

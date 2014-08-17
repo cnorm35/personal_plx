@@ -21,6 +21,8 @@ body {
 	background-position: 100% 0;
 	position: relative;
 	min-height: 1080px;
+	-webkit-box-shawdow: 0 0 50px rgba(0,0,0,0.8);
+	box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
 
 #about { 
@@ -34,6 +36,8 @@ body {
 	background-position:100% 0; 
 	position:relative;
 	min-height:1080px;
+	-webkit-box-shawdow: 0 0 50px rgba(0,0,0,0.8);
+	box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
 #blog { 
 	
@@ -66,7 +70,7 @@ body {
 	position: absolute;
 	top: 300px;
 	left: 100px;
-	padding: 10px;
+	padding: 7px;
 	background-color: rbga(0,0,0,0.7);
 }
 
@@ -117,6 +121,8 @@ body {
 	position: relative;
 	overflow: hidden;
 	text-align: center;
+	-webkit-box-shawdow: 0 0 50px rgba(0,0,0,0.8);
+	box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
 
 .navbar {
@@ -132,6 +138,24 @@ body {
 
 #contact-info {
 	margin-top: 100px;
+}
+
+#intro-heading {
+	font: bold 38px 'Montserrat', sans-serif;
+	color: white;
+	position: absolute;
+	top: 240px;
+	left: 100px;
+/*	padding: 10px;*/
+	background-color: rbga(0,0,0,0.7);
+}
+
+.hidden {
+	opacity: 0;
+}
+
+.visible{
+	opacity: 1;
 }
 
 

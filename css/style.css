@@ -110,9 +110,9 @@ body {
 	padding-top: 35px;
 	line-height: 25px; 
 	font: 14px;
-	text-align: center;
-	margin: 0 auto; 
-
+/*	text-align: center;*/
+/*	margin: 0 auto; 
+*/
 }
 
 .content-block {
@@ -120,7 +120,7 @@ body {
 	min-height: 500px;
 	position: relative;
 	overflow: hidden;
-	text-align: center;
+/*	text-align: center;*/
 	-webkit-box-shawdow: 0 0 50px rgba(0,0,0,0.8);
 	box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
@@ -162,7 +162,47 @@ body {
 	margin-top: 75px;
 }
 
+.center {
+	margin-left: 20px;
+}
 
+#wp-logo{
+	margin-left: 45px;
+}
+
+#gh-logo{
+	margin-left: 20px;
+}
+
+#twitter-logo {
+
+}
+
+#contact-info{
+
+}
+
+#gh-link {
+	margin-left: 12px;
+}
+
+#twitter-widgetp-0 {
+	margin-right: 10px;
+}
+
+.contact-container {
+	margin-left: 15%;
+	margin-top: 10%;
+}
+
+a {
+	color: #333;
+}
+
+
+#gh-section {
+	margin-left: 30px;
+}
 
 
 

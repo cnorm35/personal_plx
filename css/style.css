@@ -9,8 +9,6 @@ body {
 		background-color: rgba(0,0,0,0.5);
 	}
 
-
-
 #home {
 	background: url('../images/bg2.jpg');
 	background-attachment: fixed;
@@ -20,7 +18,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: 100% 0;
 	position: relative;
-	min-height: 1080px;
+	min-height: 800px;
 	-webkit-box-shawdow: 0 0 50px rgba(0,0,0,0.8);
 	box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
@@ -35,7 +33,7 @@ body {
 	background-repeat:no-repeat;
 	background-position:100% 0; 
 	position:relative;
-	min-height:1080px;
+	min-height:800px;
 	-webkit-box-shawdow: 0 0 50px rgba(0,0,0,0.8);
 	box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
@@ -49,7 +47,7 @@ body {
 	background-repeat:no-repeat;
 	background-position:100% 0; 
 	position:relative;
-	min-height:1080px;
+	min-height:800px;
 }
 #contact { 
 	
@@ -92,10 +90,9 @@ body {
 	font: bold 50px 'Montserrat', sans-serif;
 	color: white;
 	position: absolute;
-	top: 200px; 
+	top: 400px; 
 	right: 400px;
 	padding: 10px;
-/*	background-color: rbga(0,0,0,0.7);*/
 }
 
 .section-two {
@@ -106,13 +103,9 @@ body {
 }
 
 .content-block p {
-/*	width: 450px;*/
 	padding-top: 35px;
 	line-height: 25px; 
 	font: 14px;
-/*	text-align: center;*/
-/*	margin: 0 auto; 
-*/
 }
 
 .content-block {
@@ -120,7 +113,6 @@ body {
 	min-height: 500px;
 	position: relative;
 	overflow: hidden;
-/*	text-align: center;*/
 	-webkit-box-shawdow: 0 0 50px rgba(0,0,0,0.8);
 	box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
@@ -146,9 +138,18 @@ body {
 	position: absolute;
 	top: 240px;
 	left: 100px;
-/*	padding: 10px;*/
 	background-color: rbga(0,0,0,0.7);
 }
+
+#last-intro {
+	font: bold 38px 'Montserrat', sans-serif;
+	color: white;
+	position: absolute;
+	top: 179px;
+	left: 100px;
+	background-color: rbga(0,0,0,0.7);
+}
+
 
 .hidden {
 	opacity: 0;
@@ -159,7 +160,7 @@ body {
 }
 
 #about-section {
-	margin-top: 75px;
+	margin-top: 25px;
 }
 
 .center {
@@ -178,9 +179,6 @@ body {
 	margin-left: 10px;
 }
 
-#contact-info{
-
-}
 
 #gh-link {
 	margin-left: 12px;
@@ -199,7 +197,6 @@ a {
 	color: #333;
 }
 
-
 #gh-section {
 	margin-left: 30px;
 }
@@ -216,16 +213,21 @@ a {
 	margin-top: 20px;
 }
 
-/*.skills-list{
-	padding: 5px;
-}*/
-
 .skill-heading {
 	margin-top: 35px;
 }
  #web-logo{
  	height: 95px;
 /* 	margin-top: 20px;*/
+ }
+
+ #contact-heading {
+ 	text-align: center;
+ }
+
+ #copyright {
+ 	text-align: center;
+ 	margin-top: 35px;
  }
 
 

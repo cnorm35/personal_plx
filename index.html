@@ -9,12 +9,7 @@
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
-	<script type="text/javascript" src="js/viewportchecker.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
-	<script src="js/wow.min.js"></script>
-	<script>
-		new WOW().init();
-	</script>
+
 </head>
 <body>
 	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -32,6 +27,7 @@
 	</nav>
 	<section class="section-one">
 		<div id="home" class="bg_parralax" data-type="background" data-speed="10"></div>
+		<h2 id="last-intro" class="wow fadeInLeft">Cody Norman</h2>
 		<h2 id="intro-heading" class="wow fadeInLeft">Full Stack</h2>
 		<h2 class="wow fadeInLeft">Web Developer</h2>
 	</section>
@@ -40,9 +36,11 @@
 			<div class="col-lg-4 wow bounceInLeft" data-wow-delay=".5s">
 				<img id="profile-pic"class="img-responsive img-circle" src="images/profile_pic.jpg">
 			</div>
-			<div class="col-lg-6 wow bounceInUp" data-wow-delay="1s" id="about-section">
-				<h1>Cody Norman</h1>
-				<p>I'm currently attending the Coding Dojo web development bootcamp. The program focus on full stack development with the LAMP, MEAN, and Rails stacks. I have a passion for creating reliable, and efficient web applications.</p>
+			<div class="col-lg-6 wow bounceInUp" data-wow-delay=".75s" id="about-section">
+				<h1>About Me</h1>
+				<p>My background is primarily in economics and finance and spent the past few years as a loan officer for a mortgage lender.
+				About a year ago, I decided to persue my passion for web development and engineering full time.</p>
+				<p>I'm currently attending the Coding Dojo web development bootcamp. The program focus on full stack development with the LAMP, MEAN, and Rails stacks. I have a passion for creating reliable, efficient, and scalable web applications. Check out my blog or github to see what I'm currently working on.</p>
 			<div>
 	</div>
 	</section>
@@ -52,7 +50,7 @@
 	</section>
 	<section class="content-block">
 		<div class = "container-fluid">
-		<div class="row">
+		<div class="row wow bounceInLeft" data-wow-delay=".5s">
 			<div class="col-lg-3">
 				<h3 class="stacks">Front End</h3>
 				<img src="images/html5.png" alt="HTML5 CSS3 Stack Logo" class=" center-block stack-img" id="web-logo">
@@ -95,8 +93,13 @@
 	</section>
 	<section class="content-block">
 		<div class="row">
+			<div class="col-md-12">
+				<h1 id="contact-heading" class="wow bounceInDown">Contact</h1>
+			</div>
+		</div>
+		<div class="row">
 			<div class="col-lg-12">
-				<div class="contact-container wow bounceInDown">
+				<div class="contact-container wow bounceInDown" data-wow-delay=".25s">
 					<div class="col-md-2 col-md-offest-1">
 						<a class="center" href="mailto:wcodynorman@gmail.com"><img class="center" src="images/mail_icon.png"></a>
 						<p><a  href="mailto:wcodynorman@gmail.com">wcodynorman@gmail.com</a></p>
@@ -126,12 +129,22 @@
 				</div>
 			</div>
 		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<p id="copyright" class="wow fadeIn" data-wow-delay="1s"><span class="glyphicon glyphicon-copyright-mark"></span> Cody Norman 2014</p>
+			</div>
+		</div>
 	</section>
 
 <!-- 	<section class="section-two">
 		<div id="contact" class="bg_parralax" data-type="background" data-speed="10"></div>
 		<h2>Google Font: Montserrat</h2>
 	</section> -->
-
+	<script type="text/javascript" src="js/viewportchecker.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 </body>
 </html>

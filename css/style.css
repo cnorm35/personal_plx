@@ -129,7 +129,7 @@ body {
 }
 
 #contact-info {
-	margin-top: 100px;
+	margin-top: 60px;
 }
 
 #intro-heading {
@@ -188,10 +188,10 @@ body {
 	margin-right: 10px;
 }
 
-.contact-container {
+/*.contact-container {
 	margin-left: 15%;
 	margin-top: 10%;
-}
+}*/
 
 a {
 	color: #333;
@@ -223,6 +223,8 @@ a {
 
  #contact-heading {
  	text-align: center;
+ 	margin-bottom: 45px;
+ 	padding-right: 25px;
  }
 
  #copyright {
@@ -230,6 +232,18 @@ a {
  	margin-top: 35px;
  }
 
+/* .box{
+ 	margin-right: 
+ }
+*/
+
+.col-md-2 {
+	margin-right: 30px;
+}
+
+#mail {
+	margin-left: 40px;
+}
 
 
 
